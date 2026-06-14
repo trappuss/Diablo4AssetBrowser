@@ -4,7 +4,7 @@ A standalone Diablo IV asset browser and 3D **wardrobe / mount studio**. It read
 your installed game directly (CASC), decodes textures, and previews/exports
 character appearances, armor sets, mounts and pets as animated `.glb` models —
 with skin tone, hair/eye colour, makeup, markings, facial hair, dyes and
-animations.
+animations. Keep in mind, this is vibe-coded slop that I'm actually unhappy with as I ended up filling it with bloat. I highly recommend D4Analyzer as it's the cleanest, fastest, and most well made tool for getting Diablo 4's Assets; if you need the rigged versions and weights use my other tool which is just a .bat file that will generate a rigged .glb version of the .gltf's extracted from D4Analyzer.
 
 > Not affiliated with or endorsed by Blizzard. For personal use with a copy of
 > Diablo IV that you own. No game assets are included in this repository.
@@ -22,6 +22,29 @@ animations.
 - **Textures** / **StringLists** — decode and browse textures and translations.
 - Reads the **live game** (always matches your installed patch), with on-demand
   decryption via TACT keys.
+
+---
+
+## Previews
+
+
+---
+
+## Plans
+I'm actually not very happy with this version of the tool as I've ended up taking it beyond the scope of it what it should be for. I'm burnt out trying to get things to work properly and plan on starting fresh all over again later on.
+- Wardrobe Tab is slow as hell
+- Stable Tab sucks
+- Removing D4Extract as a dependency
+
+---
+
+## Known Issues
+
+- Facial Hair is buggy
+- Paladin animations are misssing, probably encrypted
+- Warlock models are bugged and or missing, probably encrypted
+- Horse armor isn't rigged to the skeleton
+- Stable models don't have proper transparency
 
 ---
 
